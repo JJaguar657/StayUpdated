@@ -81,6 +81,7 @@ class _TechnologyScreenState extends State<TechnologyScreen> {
                                     style: const TextStyle(
                                       fontSize: 14,
                                       fontWeight: FontWeight.bold,
+                                      color: Color(0xfff8f7ff)),
                                     ),
                                   ),
                                 ),
