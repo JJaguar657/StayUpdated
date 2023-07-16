@@ -59,7 +59,7 @@ class _TopHeadlinesState extends State<TopHeadlines> {
                           child: Image.network(
                             news[index].urlToImage,
                             fit: BoxFit.cover,
-                            height: 400.0,
+                            height: 300.0,
                           ),
                         ),
                       ),
@@ -79,8 +79,9 @@ class _TopHeadlinesState extends State<TopHeadlines> {
                                   child: Text(
                                     news[index].title,
                                     style: const TextStyle(
-                                      fontSize: 12,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
+                                      color: Color(0xfff8f7ff)),
                                     ),
                                   ),
                                 ),
