@@ -60,7 +60,7 @@ class _ScienceScreenState extends State<ScienceScreen> {
                               child: Image.network(
                                 news[index].urlToImage,
                                 fit: BoxFit.fill,
-                                height: 400.0,
+                                height: 300.0,
                               ),
                             ),
                           ),
@@ -81,8 +81,9 @@ class _ScienceScreenState extends State<ScienceScreen> {
                                       child: Text(
                                         news[index].title,
                                         style: const TextStyle(
-                                          fontSize: 12,
+                                          fontSize: 14,
                                           fontWeight: FontWeight.bold,
+                                          color: Color(0xfff8f7ff)),
                                         ),
                                       ),
                                     ),
